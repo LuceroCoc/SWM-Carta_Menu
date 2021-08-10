@@ -1,0 +1,126 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0px 30px;
+    padding: 0;
+}
+header{
+    border-bottom: solid;
+    border-width: 1px;
+}
+main{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img .image1{
+    align: right;
+    height: 347px;
+    width: 198px;
+}
+dt{
+    font-size: 20px;
+    color: black;
+}
+nav{
+    display: inline-block;
+    width: 300px;
+    padding: 15px;
+}
+section{
+    display: inline;
+    position: absolute;
+    width: 650px;
+    float: right;
+    border-left: solid;
+    padding: 15px;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px;
+}
+.object2{
+    text-align: right;
+    width: ;
+}
+.imgfut{
+    width: 80px;
+} */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0;
+}
+header{
+    border-bottom: solid;
+    border-width: 1px;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+main{
+    display: flex;
+    max-width: 960px;
+}
+ul{
+    list-style: none;
+
+}
+dt{
+    font-weight: 900;
+}
+dd{
+    margin-bottom: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    /* flex: 100px; */
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.image1{
+    position: relative;
+    float: right;
+}
+section{
+    flex: 90%;
+    padding: 15px;
+    width: 610px;
+    border-left: solid;
+    border-width: 1px;
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    width: 100%;
+}
+div p a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* Contacto */
+.contacto{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
